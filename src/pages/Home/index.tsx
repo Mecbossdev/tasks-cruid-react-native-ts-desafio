@@ -32,7 +32,7 @@ import Loading from '../../components/Loading';
 
 //services
 import api from '../../services/api';
-import { PostsContext } from '../../interfaces/posts';
+import { PostsContext } from '../../interfaces/tasks';
 import { useNavigation } from '@react-navigation/core';
 
 

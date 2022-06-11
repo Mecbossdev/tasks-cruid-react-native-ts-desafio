@@ -20,7 +20,7 @@ import {
   SafeAreaViewScroll 
 } from './styled';
 
-import { PostsContext } from '../../interfaces/posts';
+import { PostsContext } from '../../interfaces/tasks';
 
 const CreateTasks = () => {
   const [taskTitle, setTaskTitle] = useState<string>('');

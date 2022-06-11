@@ -29,7 +29,7 @@ import {
 
 //services
 import api from '../../services/api';
-import { PostsContext } from '../../interfaces/posts';
+import { PostsContext } from '../../interfaces/tasks';
 
 
 

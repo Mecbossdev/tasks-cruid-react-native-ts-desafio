@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 
 import StackRoutes from './stack.routes';
-import PostsProvider from '../interfaces/posts';
+import PostsProvider from '../interfaces/tasks';
 
 const Routes = () => (
     <NavigationContainer>
