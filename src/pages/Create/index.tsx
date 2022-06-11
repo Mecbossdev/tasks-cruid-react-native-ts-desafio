@@ -3,7 +3,7 @@ import { useNavigation } from '@react-navigation/native';
 import api from '../../services/api';
 
 
-import { View, StyleSheet, Alert, Modal, ScrollView, Text,  } from 'react-native';
+import { View, StyleSheet, Alert, Modal, ScrollView, Text } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
 import  Header  from '../../components/Header';

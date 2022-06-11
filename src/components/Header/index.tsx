@@ -11,7 +11,7 @@ import {
   HeaderButtonText,
   Plus,
   ContentButton,
-  Text,
+  TextLogo,
   
 } from './styled';
 
@@ -42,7 +42,7 @@ const Header = () => {
     <HeaderContainer>
       <HeaderLogo onPress={handleHome} >
         <LogoImage source={logo} />
-        <Text>TasksCruid</Text>
+        <TextLogo>TasksCruid</TextLogo>
       </HeaderLogo>
 
       <ContentButton onPress={handleMyTasks}>

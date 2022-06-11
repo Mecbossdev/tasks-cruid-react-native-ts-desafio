@@ -27,7 +27,7 @@ export const LogoImage = styled.Image `
     height: 30px;
 `;
 
-export const Text = styled.Text `
+export const TextLogo = styled.Text `
     color: #023E73;
     font-size: 14px;
     font-weight: bold;    
@@ -37,12 +37,6 @@ export const Text = styled.Text `
 export const HeaderButton = styled.TouchableOpacity `
     position: absolute;
     right: 20px;
-`;
-
-
-export const HeaderClickLink = styled.TouchableOpacity `
-    position: absolute;
-    left: 10px;
 `;
 
 export const ContentButton = styled.TouchableOpacity`
