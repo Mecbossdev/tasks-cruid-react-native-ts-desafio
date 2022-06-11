@@ -5,7 +5,7 @@ import {
   ActivityIndicator 
 } from 'react-native';
 
-export default function Loading({ visible }: any) {
+const Loading = ({ visible }: any) =>{
   return (
     <Modal transparent visible={visible}>
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -14,3 +14,5 @@ export default function Loading({ visible }: any) {
     </Modal>
   );
 }
+
+export default Loading;

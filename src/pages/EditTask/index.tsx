@@ -29,7 +29,7 @@ import {
 
 //services
 import api from '../../services/api';
-import { PostsContext } from '../../interfaces/tasks';
+import { PostsContext } from '../../interfaces/posts';
 
 
 
@@ -62,7 +62,7 @@ const EditTask = (props: any) => {
         .then(response => {
           console.log(response)
         })
-      props.navigation.navigate('Request', {
+      props.navigation.navigate('Requisition', {
         title: 'Seu post foi editado com sucesso!',
         icon: 'form',
         lib: 'AntDesign'
@@ -73,7 +73,7 @@ const EditTask = (props: any) => {
         title: title,
         body: content,
       }])
-      props.navigation.navigate('Request', {
+      props.navigation.navigate('Requisition', {
         title: 'Seu post foi editado com sucesso!',
         icon: 'form',
         lib: 'AntDesign',

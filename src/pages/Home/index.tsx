@@ -1,6 +1,9 @@
 import React, { useState, useContext } from 'react';
-import { ActivityIndicator, View,  FlatList } from 'react-native';
-import logo from '../../assets/icon.png';
+import { 
+  ActivityIndicator, 
+  View,  
+  FlatList 
+} from 'react-native';
 
 
 //styled components
@@ -32,7 +35,7 @@ import Loading from '../../components/Loading';
 
 //services
 import api from '../../services/api';
-import { PostsContext } from '../../interfaces/tasks';
+import { PostsContext } from '../../interfaces/posts';
 import { useNavigation } from '@react-navigation/core';
 
 

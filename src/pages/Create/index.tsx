@@ -6,7 +6,7 @@ import api from '../../services/api';
 import { View, StyleSheet, Alert, Modal, ScrollView, Text,  } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
-import { Header } from '../../components/Header';
+import  Header  from '../../components/Header';
 import { 
   Main, 
   SafeAreaView, 
@@ -20,7 +20,7 @@ import {
   SafeAreaViewScroll 
 } from './styled';
 
-import { PostsContext } from '../../interfaces/tasks';
+import { PostsContext } from '../../interfaces/posts';
 
 const CreateTasks = () => {
   const [taskTitle, setTaskTitle] = useState<string>('');
@@ -42,7 +42,7 @@ const CreateTasks = () => {
             id: myTasks.length + 1
           }])
         })
-        navigation.navigate('Request', {
+        navigation.navigate('Requisition', {
           title: 'Sua task foi criada com sucesso!',
           icon: 'plussquareo',
           lib: 'AntDesign',
