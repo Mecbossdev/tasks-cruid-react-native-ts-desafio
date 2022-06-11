@@ -7,9 +7,7 @@ import api from '../services/api';
 
 export const PostsContext = createContext({})
 
-function PostsProvider({
-  children
-}) {
+export default function PostsProvider({children}) {
 
 
   const [tasks, setTasks] = useState([]);
@@ -66,5 +64,3 @@ function PostsProvider({
     /PostsContext.Provider>
   )
 }
-
-export default PostsProvider;
