@@ -1,21 +1,21 @@
 import React from 'react';
 
+import logo from '../../assets/logo.png';
 
 //styled components
 import {
-  HeaderContent,
+  HeaderContainer,
   HeaderLogo,
   LogoImage,
-  LogoText,
   HeaderButton,
   HeaderButtonText,
-  HeaderClickLink,
   Plus,
-  HeaderMyTasks,
-  ContentButton
+  ContentButton,
+  Text,
+  
 } from './styled';
 
-import logo from '../../assets/logo.png';
+
 
 import { useNavigation } from '@react-navigation/native';
 import { RootStackParamList } from '../../routes/stack.routes';
@@ -23,14 +23,14 @@ import { StackNavigationProp } from '@react-navigation/stack';
 
 type homeScreenProp = StackNavigationProp<RootStackParamList, 'Home'>;
 
-export function Header() {
+const Header = () => {
   const navigation = useNavigation<homeScreenProp>();
 
   function handleStart() {
     navigation.navigate("CreateTasks");
   }
 
-  function handleMyPosts() {
+  function handleMyTasks() {
     navigation.navigate("MyTasks");
   }
 
@@ -39,13 +39,13 @@ export function Header() {
   }
 
   return (
-    <HeaderContent>
+    <HeaderContainer>
       <HeaderLogo onPress={handleHome} >
         <LogoImage source={logo} />
-        <LogoText>TasksCruid</LogoText>
+        <Text>TasksCruid</Text>
       </HeaderLogo>
 
-      <ContentButton onPress={handleMyPosts}>
+      <ContentButton onPress={handleMyTasks}>
         <HeaderButtonText>Minhas Tasks</HeaderButtonText>
       </ContentButton>
 
@@ -57,6 +57,8 @@ export function Header() {
       </HeaderButton>
 
 
-    </HeaderContent>
+    </HeaderContainer>
   )
 }
+
+export default Header;

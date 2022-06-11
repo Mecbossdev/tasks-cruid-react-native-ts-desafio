@@ -1,10 +1,7 @@
 import React, { useContext } from 'react';
-import logo from '../../assets/icon.png';
-import api from '../../services/api';
 
 //components
-import { Header } from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from '../../components/Header';
 
 import { useNavigation } from '@react-navigation/core';
 import { PostsContext } from '../../interfaces/posts';
@@ -12,7 +9,6 @@ import { PostsContext } from '../../interfaces/posts';
 //styled components
 import {
   Main,
-  UserIcon,
   MainHeader,
   TaskName,
   MainButton,
@@ -44,14 +40,14 @@ const MyTasks = (props: any) => {
         return task.id !== id;
       })
       setMyTasks(newMyTasks);
-      navigation.navigate('Request', {
+      navigation.navigate('Requisition', {
         title: 'A task foi deletada!',
         icon: 'delete',
         lib: 'AntDesign',
         mehandle: true
       })
     } catch (error) {
-      navigation.navigate('Request', {
+      navigation.navigate('Requisition', {
         title: 'Não foi possível deletar a task!',
         icon: 'delete',
         status: error,

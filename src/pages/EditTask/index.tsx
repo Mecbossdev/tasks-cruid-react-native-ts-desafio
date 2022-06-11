@@ -1,20 +1,19 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { View, Image, Text } from 'react-native';
+import { View } from 'react-native';
 import logo from '../../assets/logo.png';
 
 //components
-import { Header } from '../../components/Header';
+import  Header  from '../../components/Header';
 
 //styled components
 import { 
   Main,  
   PageTitle, 
   MainHeader, 
-  UserIcon, 
-  UserName, 
+  UserIcon,
+  TaskName, 
   DivButton, 
-  SafeAreaViewScroll, 
-  MainButtonText, 
+  SafeAreaViewScroll,  
   MainContent, 
   LabelInput, 
   TextInputForm, 
@@ -22,7 +21,9 @@ import {
   ButtonAlign, 
   ButtonForm, 
   ButtonFormText,
-  Edit
+  Edit,
+  ViewTextIcon,
+  
 } from './styled';
 
 
@@ -88,11 +89,11 @@ const EditTask = (props: any) => {
       <Main>
         <MainHeader>
           <UserIcon source={logo} />
-          <UserName>TasksCruid</UserName>
+          <TaskName>TasksCruid</TaskName>
           <DivButton>
-            <MainButtonText>
+            <ViewTextIcon>
               <Edit name="form" size={24} color="black"/>
-            </MainButtonText>
+            </ViewTextIcon>
           </DivButton>
         </MainHeader>
         <MainContent>
@@ -108,8 +109,8 @@ const EditTask = (props: any) => {
             <LabelInput>Conteúdo</LabelInput>
             <TextAreaInputForm
               value={content}
-              onChangeText={setContent}
               multiline={true}
+              onChangeText={setContent}
               placeholder="Digite aqui o Conteúdo..."
             />
           </View>

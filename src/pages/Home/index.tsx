@@ -26,7 +26,7 @@ import {
 } from './styled';
 
 //components
-import { Header, } from '../../components/Header';
+import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Loading from '../../components/Loading';
 
@@ -71,16 +71,16 @@ const Home = (props: any) => {
 
       })
       setVisible(false)
-      navigation.navigate('Request', {
-        title: 'O post foi deletado com sucesso!',
-        icon: 'trash-2',
-        lib: 'Feather',
+      navigation.navigate('Requisition', {
+        title: 'A task foi deletada com sucesso!',
+        icon: 'delete',
+        lib: 'AntDesign',
         status: 200
       })
     } catch (error) {
-      navigation.navigate('Request', {
-        title: 'Não foi possível deletar o post!',
-        icon: 'trash-2',
+      navigation.navigate('Requisition', {
+        title: 'Não foi possível deletar a task!',
+        icon: 'delete',
         status: error
       })
     }
@@ -91,10 +91,10 @@ const Home = (props: any) => {
     if (favTasks.indexOf(id) == -1) {
       await setFavTasks([...favTasks, id])
       setVisible(false)
-      navigation.navigate('Request', {
-        title: 'Esse post foi Favoritado com sucesso!',
+      navigation.navigate('Requisition', {
+        title: 'Essa task foi Favoritada com sucesso!',
         icon: 'star',
-        lib: 'FontAwesome'
+        lib: 'AntDesign'
       })
     } else {
       let newFavTasks = favTasks.filter((task: any) => {
@@ -103,10 +103,10 @@ const Home = (props: any) => {
       await setFavTasks(newFavTasks);
       setVisible(false);
 
-      navigation.navigate('Request', {
+      navigation.navigate('Requisition', {
         title: 'Esse post foi removido dos Favoritos com sucesso!',
         icon: 'star',
-        lib: 'Feather'
+        lib: 'AntDesign'
       })
     }
   }
@@ -165,7 +165,6 @@ function ListItem({ task, handleSaveTask, handleEditTask, handleDeleteTask, favT
     <Main key={task.id}>
       <MainHeader>
         <TaskName>TASKS</TaskName>
-
         <DivButton>
           <ButtonIcon onPress={() => handleSaveTask(task.id)}>
             <ViewTextIcon>

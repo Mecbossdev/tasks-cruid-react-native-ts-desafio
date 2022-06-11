@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import { AntDesign } from '@expo/vector-icons';
 
-export const HeaderContent = styled.View `
+export const HeaderContainer = styled.View `
     display: flex;
     width: 100%;
     height: 70px;
@@ -27,7 +27,7 @@ export const LogoImage = styled.Image `
     height: 30px;
 `;
 
-export const LogoText = styled.Text `
+export const Text = styled.Text `
     color: #023E73;
     font-size: 14px;
     font-weight: bold;    

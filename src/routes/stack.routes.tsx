@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 import Home from '../pages/Home';
 import CreateTasks from '../pages/Create';
 import EditTask from '../pages/EditTask';
-import Request from '../pages/Request';
+import Requisition from '../pages/Requisition';
 import MyTasks from '../pages/MyTasks';
 
 const stackRoutes = createStackNavigator<RootStackParamList>();
@@ -14,7 +14,7 @@ export type RootStackParamList = {
   CreateTasks: undefined;
   Home: undefined;
   EditTask: undefined;
-  Request: undefined;
+  Requisition: undefined;
   MyTasks: undefined;
 };
 
@@ -22,8 +22,8 @@ export type RootStackParamList = {
 const AppRoutes: React.FC = () => (
   <stackRoutes.Navigator
     screenOptions={{
-      headerShown: false,
       gestureEnabled: true,
+      headerShown: false,
       gestureDirection: "horizontal",
       cardStyle: {
         backgroundColor: "#fff"
@@ -47,8 +47,8 @@ const AppRoutes: React.FC = () => (
     />
 
     <stackRoutes.Screen
-      name="Request"
-      component={Request}
+      name="Requisition"
+      component={Requisition}
     />
 
     <stackRoutes.Screen

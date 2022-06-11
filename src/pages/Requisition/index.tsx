@@ -1,7 +1,7 @@
 import React from 'react';
 
 //components
-import { Header } from '../../components/Header';
+import  Header  from '../../components/Header';
 
 //styled components
 import { 
@@ -16,7 +16,7 @@ import {
   Staro
 } from './styled';
 
-const Request = (props: any) => {
+const Requisition = (props: any) => {
 
   function handleConclude() {
     props.navigation.navigate('Home');
@@ -54,4 +54,4 @@ const Request = (props: any) => {
   );
 }
 
-export default Request;
+export default Requisition;

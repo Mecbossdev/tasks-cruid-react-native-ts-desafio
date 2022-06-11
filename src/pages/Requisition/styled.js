@@ -30,10 +30,9 @@ export const Main = styled.View`
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
-
     background-color: #D9CCC1;
     border-radius: 5px;
-    box-shadow: -8px 8px 0px rgba(23, 149, 131, 1);
+    box-shadow: -9px 9px 0px rgba(23, 149, 131, 1);
 `;
 
 export const AlignCenter = styled.View`

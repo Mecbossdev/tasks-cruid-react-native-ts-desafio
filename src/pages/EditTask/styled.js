@@ -49,13 +49,14 @@ export const UserIcon = styled.Image `
     top: 0;
 `;
 
-export const UserName = styled.Text `
-    color: #000;
+export const TaskName = styled.Text`
+    color: #023E73;
+    font-weight: bold;
     flex: 1;
 `;
 
 export const DivButton = styled.View `
-    self-align: flex-end;
+    align-self: flex-end;
     display: flex;
     flex-direction: row;
 `;
@@ -65,10 +66,6 @@ export const SafeAreaViewScroll = styled.ScrollView `
     width: 100%;
 `;
 
-export const MainButtonText = styled.Text `
-    //substituido  
-`;
-
 
 export const MainContent = styled.View `
     display: flex;
@@ -76,6 +73,10 @@ export const MainContent = styled.View `
 
 export const LabelInput = styled.Text `
     margin: 10px 0px 10px;
+`;
+
+export const ViewTextIcon = styled.Text`
+      
 `;
 
 export const TextInputForm = styled.TextInput `
