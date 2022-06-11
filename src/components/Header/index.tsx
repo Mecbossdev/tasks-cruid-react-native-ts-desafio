@@ -12,7 +12,6 @@ import {
   Plus,
   ContentButton,
   TextLogo,
-  
 } from './styled';
 
 

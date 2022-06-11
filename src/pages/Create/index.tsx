@@ -95,7 +95,7 @@ const CreateTasks = () => {
           setModalVisible(!modalVisible);
         }}
       >
-        <View style={styles.View}>
+        <View style={styles.ViewContainer}>
           <View style={styles.modalView}>
             <Text style={styles.modalText}>Por favor, preencha a task da sua maneira!</Text>
             <ButtonAlign>
@@ -115,7 +115,7 @@ const CreateTasks = () => {
 
 
 const styles = StyleSheet.create({
-  View: {
+  ViewContainer: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",

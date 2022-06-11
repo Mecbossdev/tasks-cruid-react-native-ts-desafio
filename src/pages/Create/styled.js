@@ -15,6 +15,15 @@ export const ButtonForm = styled.TouchableOpacity `
     border-radius: 6px;
     border: 1px solid #023E73;
 `;
+export const Main = styled.View `
+    margin: 10px 25px 20px 25px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9CCC1;
+    border-radius: 5px;
+    box-shadow: -8px 8px 0px rgba(23, 149, 131, 1);
+`;
 
 export const ButtonFormText = styled.Text `
     font-size: 18px;
@@ -49,15 +58,7 @@ export const PageTitle = styled.Text `
     font-weight: bold;
 `;
 
-export const Main = styled.View `
-    margin: 10px 25px 20px 25px;
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: #D9CCC1;
-    border-radius: 5px;
-    box-shadow: -8px 8px 0px rgba(23, 149, 131, 1);
-`;
+
 
 export const LabelInput = styled.Text `
     margin: 10px 0px 10px;
