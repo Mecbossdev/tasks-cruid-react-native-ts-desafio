@@ -4,7 +4,7 @@ import React, { useContext } from 'react';
 import Header from '../../components/Header';
 
 import { useNavigation } from '@react-navigation/core';
-import { PostsContext } from '../../interfaces/tasks';
+import { PostsContext } from '../../interfaces/posts';
 
 //styled components
 import {

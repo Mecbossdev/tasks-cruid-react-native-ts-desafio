@@ -95,9 +95,9 @@ const CreateTasks = () => {
           setModalVisible(!modalVisible);
         }}
       >
-        <View style={styles.centeredView}>
+        <View style={styles.View}>
           <View style={styles.modalView}>
-            <Text style={styles.modalText}>Por favor, preencha o task da sua maneira!</Text>
+            <Text style={styles.modalText}>Por favor, preencha a task da sua maneira!</Text>
             <ButtonAlign>
               <ButtonForm
                 onPress={() => setModalVisible(!modalVisible)}
@@ -115,7 +115,7 @@ const CreateTasks = () => {
 
 
 const styles = StyleSheet.create({
-  centeredView: {
+  View: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
@@ -135,22 +135,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 4,
     elevation: 5
-  },
-  button: {
-    borderRadius: 20,
-    padding: 10,
-    elevation: 2
-  },
-  buttonOpen: {
-    backgroundColor: "#F194FF",
-  },
-  buttonClose: {
-    backgroundColor: "#2196F3",
-  },
-  textStyle: {
-    color: "white",
-    fontWeight: "bold",
-    textAlign: "center"
   },
   modalText: {
     marginBottom: 15,
