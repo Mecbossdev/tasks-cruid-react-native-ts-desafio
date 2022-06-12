@@ -29,7 +29,7 @@ export const PageTitle = styled.Text `
 `;
 
 export const SafeAreaView = styled.SafeAreaView `
-    background-color: #93D871;
+    background-color: #000;
     width: 100%;
     height: 100%;
 `;
@@ -62,7 +62,7 @@ export const DivButton = styled.View `
 `;
 
 export const SafeAreaViewScroll = styled.ScrollView `
-    background-color: #93D871;
+    background-color: #000;
     width: 100%;
 `;
 

@@ -39,18 +39,9 @@ export const HeaderButton = styled.TouchableOpacity `
     right: 20px;
 `;
 
-export const ContentButton = styled.TouchableOpacity`
-    width: 100px;
+export const HeaderLink = styled.TouchableOpacity`
     position: absolute;
-    left: 15px;
-    max-height: 50px;
-    background-color: #023E73;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #023E73;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;    
+    left: 20px;
 `;
 
 export const HeaderMyTasks = styled.Text `

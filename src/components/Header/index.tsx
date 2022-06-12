@@ -10,8 +10,9 @@ import {
   HeaderButton,
   HeaderButtonText,
   Plus,
-  ContentButton,
   TextLogo,
+  HeaderLink,
+  HeaderMyTasks,
 } from './styled';
 
 
@@ -44,9 +45,9 @@ const Header = () => {
         <TextLogo>TasksCruid</TextLogo>
       </HeaderLogo>
 
-      <ContentButton onPress={handleMyTasks}>
-        <HeaderButtonText>Minhas Tasks</HeaderButtonText>
-      </ContentButton>
+      <HeaderLink onPress={handleMyTasks}>
+        <HeaderMyTasks>Minhas Tasks</HeaderMyTasks>
+      </HeaderLink>
 
 
       <HeaderButton onPress={handleStart}>
