@@ -10,7 +10,6 @@ import {
   Main,  
   PageTitle, 
   MainHeader, 
-  UserIcon,
   TaskName, 
   DivButton, 
   SafeAreaViewScroll,  
@@ -88,8 +87,7 @@ const EditTask = (props: any) => {
       <PageTitle>Editar Task</PageTitle>
       <Main>
         <MainHeader>
-          <UserIcon source={logo} />
-          <TaskName>TasksCruid</TaskName>
+          <TaskName>Tasks</TaskName>
           <DivButton>
             <ViewTextIcon>
               <Edit name="form" size={24} color="black"/>

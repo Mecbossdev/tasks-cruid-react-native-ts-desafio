@@ -15,21 +15,21 @@ export const Main = styled.View `
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: -8px 8px 0px rgba(23, 149, 131, 1);
+    background-color: #D9CCC1;
+    border-radius: 6px;
+    box-shadow: -9px 9px 0px rgba(23, 149, 131, 1);
 `;
 
 export const PageTitle = styled.Text `
     font-size: 18px;
-    color: #fff;
+    color:  #023E73;
     margin-left: 20px;
     margin-bottom: 20px;
     font-weight: bold;
 `;
 
 export const SafeAreaView = styled.SafeAreaView `
-    background-color: #000;
+    background-color: #8C503A;
     width: 100%;
     height: 100%;
 `;
@@ -53,6 +53,7 @@ export const TaskName = styled.Text`
     color: #023E73;
     font-weight: bold;
     flex: 1;
+    font-size: 14px;
 `;
 
 export const DivButton = styled.View `
@@ -62,7 +63,7 @@ export const DivButton = styled.View `
 `;
 
 export const SafeAreaViewScroll = styled.ScrollView `
-    background-color: #000;
+    background-color: #8C503A;
     width: 100%;
 `;
 
@@ -80,7 +81,7 @@ export const ViewTextIcon = styled.Text`
 `;
 
 export const TextInputForm = styled.TextInput `
-    border: 1px solid #179583;
+    border: 1px solid  #023E73;
     border-radius: 5px;
     padding: 10px;
     height: 40px;
@@ -89,7 +90,7 @@ export const TextInputForm = styled.TextInput `
 `;
 
 export const TextAreaInputForm = styled.TextInput `
-    border: 1px solid #179583;
+    border: 1px solid  #023E73;
     border-radius: 5px;
     padding: 10px;
     height: 100px;
