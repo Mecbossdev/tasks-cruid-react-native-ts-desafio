@@ -45,7 +45,7 @@ export default function PostsProvider({children}) {
   }
 
   return ( <
-    PostsContext.Provider value = {
+    PostsContext.Provider value={
       {
         tasks,
         setTasks,
@@ -60,7 +60,7 @@ export default function PostsProvider({children}) {
     } >
     {
       children
-    } <
-    /PostsContext.Provider>
+    } 
+    </PostsContext.Provider>
   )
 }
