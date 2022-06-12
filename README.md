@@ -13,7 +13,7 @@ https://jsonplaceholder.typicode.com/posts
 >Documentação da rota adicionar POST “/Posts1”
 https://jsonplaceholder.typicode.com/POST /posts Content-Type: application/json
 
->Documentação da rota adicionar DELETE “/Posts1”
+>Documentação da rota deletar DELETE “/Posts1”
 https://jsonplaceholder.typicode.com/DELETE /posts/{id}
 
 
