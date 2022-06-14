@@ -23,4 +23,4 @@ https://jsonplaceholder.typicode.com/DELETE /posts/{id}
 3. Axios
 4. Styled Component
 7. React Navigation
-8. React Native Async Storage
+
