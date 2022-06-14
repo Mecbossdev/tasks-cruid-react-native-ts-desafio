@@ -1,5 +1,5 @@
 # tasks-cruid-react-native-ts-desafio
-> A aplicação será construída utilizando o framework React Native para aplicativos de Smartphone híbrida Android/IOS.
+> A aplicação será construída utilizando o framework React Native para aplicativos expo.
 
 ## Objetivo
 
