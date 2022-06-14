@@ -3,7 +3,7 @@
 
 ## Objetivo
 
->Listar e criar task com a API JSONPlaceholder. Mostrar as informações e ter a opção de editar, adcionar posts e favoritar com rotas disponibilizado pela API, sendo essencial organização seu poster.
+>Listar e criar task com a API JSONPlaceholder. Mostrar as informações e ter a opção de editar, adcionar posts e favoritar com rotas disponibilizado pela API, sendo essencial organização nas suas Tasks.
 
 ## API 
 
