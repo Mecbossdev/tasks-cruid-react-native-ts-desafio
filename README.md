@@ -1,5 +1,5 @@
 # tasks-cruid-react-native-ts-desafio
-> A aplicação será construída utilizando o framework React Native ultilizando o expo para visualização do projeto, para aplicativos android e Ios.
+> A aplicação é construída utilizando o framework React Native ultilizando o expo para visualização do projeto, para aplicativos android e Ios.
 
 ## Objetivo
 
